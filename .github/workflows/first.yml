@@ -46,7 +46,7 @@ jobs:
         run: 'mvn compile'
 
       - name: Build application
-        run: 'mbn package -DskipTests'
+        run: 'mvn package -DskipTests'
 
       - name: Test application
         run: 'mvn test'
